@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "rag-erp",
+  "private_key_id": "eb1686b71052f9bf4ce0627031bdf229359f5fe1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDbVaBAPWHtapRj\nWM7Is4A+E94PStBOtEZtyhInsGmROtTB4vWqUnop3c18Js/S8QbWU5k53Aayjan7\nEk72okBybr1YShqZOBGl+kSCJ7pBWNsVnDmIGwexuGfLmjPyxl+H6ltycDSHPhgx\nWRGbdWpwrcGw3cHye2+P4tv0Rm4qlCbqiBzC4RMmDj3HCnPTr8I2NZhQSog3omIo\n7KFYa890GrRBZYiLU/YZZIx6j2IPFh05z4tcXcweCu+D9o/P9C8iKVXyom88lQ/G\nOuTkoSyhlYOUNE2c+kGGAeOEb7b+cLTgYwLRR5+TFhyf7KaMA/NoKu2RqdfHgqhD\ngPhuiue1AgMBAAECggEAYYfDyI0C/KWF8l9NJCXdgr0m4znrQvQa1Tsjs45YgwHc\nFZMsll4ygGdmtiw0AaK33Zoy6m2SdNdVnJVZk4Y2jiv7+kSJa1RpVJri19V+lwxB\n72wWkRUj6L0NOpYJP41CcZeerlaCpRjRfTAUCkK93/kDxff2BDMrOpowIIEo/7kq\ndgDDoIsuCbDt0KRyqklvS8X4/LelDmJQsqCuL6k+wihZ0SHcZ1AO+FLucUugj14g\nAvFD48NDWsX05LPf9zvlXzkfhlTpq3Uqqn4qPmnDfe8ruibbRoXziKUEArPQihxw\nQWMGFXn/0vHISuNVC1oaxccWlCuXiKpLqJCCqurPiQKBgQD0bMQIdMifZ/va2TL5\nlr+HCWIBgFVT/LEWLTKlu4b7emo/JR6CmlFUvNl1wbgY+gjzrCl+vYjkl5ttYOwV\nJ9P8ux+sT13A5IT56Ud69NH4TQ7AX29GaQqVyS7uINSEPZxPnDopj4pTYz13ge5q\ntcP5gl27sAIV0a2pcVT+f14shwKBgQDluK6c8kWnBObxOa92CFXjz4pxLFSxvnQA\ncf1n9XKE/V565S71IpGbBANlQQ3NxfL44J3R0zZ0vt+sNY1UB6+AyUMx7SkG9aIV\nesRkbrqUPiey6G00e+f+HTQcM6ldmuOo8bJC90faoRU2aHjU8iy8opVN5Kh7CAj/\nSaz1SJI04wKBgFOmiayPMz4C21n5rY1nvyKa3nS/E/TLbVu2mjfIJxkXuxbjQD7Y\nS29htlartrKtl7S1PfpHKXt6O1JCsmlHGTDMZbmV6/MhAjV5VeJJuTZuQNcrkiyZ\ntGqw0KPkjna3kzBXujwRCPki5J1q1Uql7G0O5b9fLEeFXBa6V6lFs9gvAoGAQTJx\nHEoGSqixgrUEf1NOTSGSARy7zNZoxdeUO/UFU4k1T1vMP/ZXrM8ux4X3DPepRck6\nAVsYkXm6sX1hZv/nZ323fGv6wObl4YK+SmLCwWAClFwy4jpoVU6kg3yGDPLwufoe\nxbK4yev9wTtVT9qLp93c0gabao+VPh8C33qBRFECgYB7tzD6u4tybR1GZ0ON7NPB\nKYwZ4Eu8GFquHhj/JoIoB0paE+xz3khr6eoKsHfOcWQ7Nd892dpeTvohHwBYaN7A\nwnzrB69ZomZp2OmESbZ5v89A/ITP0nvm43jrUuq9RJ0qY8y6GylKQgyftZJbjaeY\nzmYVUo06kKWCyfekq7Am9Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "rag-general@rag-erp.iam.gserviceaccount.com",
+  "client_id": "115082272067661063900",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rag-general%40rag-erp.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
