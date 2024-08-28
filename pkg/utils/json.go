@@ -32,7 +32,7 @@ func DecodeJSON(r io.ReadCloser, v interface{}) error {
 // WriteJSON writes a json object to a http.ResponseWriter,
 // setting the Content-Type header to application/json
 func WriteJSON(w http.ResponseWriter, v any) error {
-	w.Header().Set("Content-Type", "application.json")
+	w.Header().Set("Content-Type", "application/json")
 	return json.NewEncoder(w).Encode(Response{v})
 }
 

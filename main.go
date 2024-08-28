@@ -10,6 +10,7 @@ import (
 	firebase "firebase.google.com/go"
 	"github.com/0x-chaitu/rag_erp/internal/api"
 	"github.com/0x-chaitu/rag_erp/pkg/utils"
+	"github.com/caddyserver/certmagic"
 	"google.golang.org/api/option"
 )
 
@@ -33,10 +34,19 @@ func main() {
 		log.Fatalf("error initializing auth client: %v\n", err)
 	}
 
+	certmagic.DefaultACME.Agreed = true
+
+	// provide an email address
+	certmagic.DefaultACME.Email = "chaitubhojane@gmail.com"
+
+	// certmagic.DefaultACME.CA = certmagic.LetsEncryptProductionCA
+	certmagic.DefaultACME.CA = certmagic.LetsEncryptStagingCA
+
 	api := api.NewAPI(ctx, db, authClient)
 	srv := api.Server(8000)
 
 	go func() {
+		certmagic.HTTPS([]string{"api.pudgelabs.in.net"}, srv.Handler)
 		if err := srv.ListenAndServe(); err != nil {
 			panic(err)
 		}
