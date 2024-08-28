@@ -39,8 +39,8 @@ func main() {
 	// provide an email address
 	certmagic.DefaultACME.Email = "chaitubhojane@gmail.com"
 
-	// certmagic.DefaultACME.CA = certmagic.LetsEncryptProductionCA
-	certmagic.DefaultACME.CA = certmagic.LetsEncryptStagingCA
+	certmagic.DefaultACME.CA = certmagic.LetsEncryptProductionCA
+	// certmagic.DefaultACME.CA = certmagic.LetsEncryptStagingCA
 
 	api := api.NewAPI(ctx, db, authClient)
 	srv := api.Server(8000)
